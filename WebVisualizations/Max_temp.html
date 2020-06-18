@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" >
+      
+      <title>Web Visualizations</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet"  href="styles.css">
+      <style>
+      
+        
+      </style>
+</head>
+  </head>
+  <ul class="topnav navbar ">
+    <li><a href="index.html">Home</a></li>
+    
+    <li><div class="dropdown">
+      <button class="dropbtn">Plots &#9660;
+      </button>
+      <div class="dropdown-content">
+        <div>
+          <a href="max_temp.html">Max Temp</a>
+          <a href="humidity.html">Humidity</a>
+          <a href="cloudiness.html">Cloudiness</a>
+          <a href="wind_speed.html">Wind Speed</a>
+      </div>
+      <li><a href="data.asp">Data</a></li>
+      <li><a href="comparisons.html">Comparisons</a></li>
+    </li>
+      </ul>
+  <!-- Content Section -->
+        <body>
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-7 col-md-12">
+                    <!-- Left box  -->
+                    <div class="box">
+                      <h3 class="title">Maximum Temperature</h3>
+                      <hr>
+                      <img src="Resources/assets/images/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
+                      <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).
+                        More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the
+                        year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this
+                        data was gathered.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-12">
+                    <!-- Right Box -->
+                    <div class="box">
+                      <h5 class="title">Visualizations</h5>
+                      <hr>
+            
+            
+                      <div class="container">
+                        <div class="row" style="padding-bottom: 30px;">
+                          <div class="col-6">
+                            <a href="max_temp.html">
+                              <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Image">
+                            </a>
+                          </div>
+                          <div class="col-6">
+                            <a href="humidity.html">
+                              <img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
+                            </a>
+                          </div>
+                        </div>
+            
+                        <div class="row" style="padding-bottom: 30px;">
+                          <div class="col-6">
+                            <a href="cloudiness.html">
+                              <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
+                            </a>
+                          </div>
+                          <div class="col-6">
+                            <a href="wind_speed.html">
+                              <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph">
+                            </a>
+                          </div>
+            
+            
+                        </div>
+                      </div>
+            
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </body>
+        </html>
